@@ -1,0 +1,52 @@
+body {
+	background-color: #f5ffff; /* chaque ligne termine par ";"*/
+	
+}
+#conteneur{
+	border: 15px solid #669999; /* Bordures fonctionnent avec l'ordre suivant, épaisseur en px, style de trait (solid, dotted, dashed,...), couleur*/
+	width: 80%;
+	margin: 0 auto 0 auto; /* Margin 0 AUTO sert a centrer un élément dans un élément parent qui le contient. Le 0 = TOP, AUTO = RIGHT, 0 = BOTTOM, AUTO = LEFT*/
+	
+}
+header image{
+width: 100%; /*En % de l'élément parent*/
+height: AUTO; /*Le Auto permet de garder la proportion l'hauteur de l'image*/
+} /*Ici on cible que l'image avec l'espace entre valises*/
+header {
+	border: 10px solid #006666;
+	
+}
+nav{
+	border: 5px solid #006666; /*La NAV occupe tout l'éspace de son élément parent, c'est un élément bloc*/
+	width: 40%;
+	float: left; /*FLOAT est utilisé pour extraire l'élement du flux ave consequence de faire remonter d'un niveau la "section" */
+	margin-top: 50px;
+}
+
+#carte{
+	border: 5px solid #006666;
+	width: 59%;
+	margin-left: 610px;
+	margin-top: 50px;
+	padding: 20px 0px 0px 0px; /*PADDING = marge interieure, la fonction marche fonctionne comme le MARGIN: Le 20 = TOP, 0 = RIGHT, 0 = BOTTOM, 45 = LEFT*/
+
+}
+#carte image{
+	width: 60%;
+	height: AUTO;
+	padding: 0px 0px 50px 180px;
+}
+table{
+	border: 1px solid #000000; /*selectionner valise TABLE ne suffit pas pour selectionner tout.*/
+	border-collapse: collapse; /*les bordures s'effondrent les unes usr les autres et fusionnent*/
+}
+/*
+tr{
+	border: 1px solid #000000; 
+	
+}*/ /*Cibler TR ne sert pas*/
+
+th, td{
+	border: 1px solid #000000; /* la "," = "et puis"*/
+	
+}

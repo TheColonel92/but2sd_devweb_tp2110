@@ -1,0 +1,117 @@
+<!doctype html><!--Déclaration d'un doc HTML, NE PAS OUBLIER LE "!"-->
+<html>
+	<head>
+		<title> Listes des formations en BUT SD </title><!--IMPORTANT pour le référencement-->
+		<meta charset="utf-8"><!--Balise orpheline. charset = CharactSet = reglage des caractères. "utf-8" = encodage quasi universel-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"><!--Balise orpholine pour lié les fichiers CSS avec les fichiers HTML-->
+	</head>
+	<body>
+		<div id="conteneur">
+			<header>
+				<img src ="images\IUTParis.png"><!--Balise orpheline = PAS de balise fermante "</...>"-->
+			</header>
+		<nav><!--Pour les MENU de nav-->
+			<ul><!--Unordered list-->
+				<li> <a href="https://www.lemonde.fr"> Le réseau des IUT </a><!-- "li" fonctionne avec "ul" ou "ol";"<a>" = "Anchor" = Ancre;HREF = Reférence de l'hyper lien -->
+					<ul>
+						<li> Présentation du réseau </li>
+						<li> Les IUT en chiffres </li>
+						<li> La structure </li>
+					</ul>
+				</li>
+				<li> Formations et Diplômes
+					<ul>
+						<li> Tour de France des IUT </li>
+						<li> Trouver sa spécialité </li>
+					</ul>
+				</li>
+				<li><a href="mailto: rincon.marc@gmail.com"> Contacts </a><!-- Protocole "mailto:" pour envoyé un mail -->
+					<ul>
+						<li> Département SD
+							<ul>
+								<li> Leo Jean UNITE
+									<ul>
+										<li><a href="mailto: leo-jean.unite@etu.u-paris.fr">leo-jean.unite@etu.u-paris.fr </a></li>
+										<li> +33.7.**.**.**.** </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<section><!-- -->
+			<h2> Carte de France </h2><!--Niveau de Titre h1 à h6-->
+			<img src ="images\carte_IUT.jpg">
+		</section>
+		<section>
+			<table><!-- -->
+				<caption> Les IUT et leurs spécialités </caption><!-- -->
+				<tr><!--"<tr>" = "Table Row" c-a-d rangée de tableau-->
+					<th> Régions </th><!--"<th>" = "Table heading" c-a-d intitulé de ligne/colonne-->
+					<th> IUT </th>
+					<th> Spécilité du DUT </th>
+				</tr>
+				<!--Création de la 2e ligne-->
+				<tr>
+					<th> Ile de France </th>
+					<td> Paris </td><!--"<td>" = "Table Data" c-a-d Donnée de tableau-->
+					<td> GEA </td>
+					<td> SD </td>
+					<td> SC </td>
+					<td> STAT </td>
+					<td> INFO </td>
+				</tr>
+				<!--Création de la 3e ligne-->
+				<tr>
+					<th> Ile de France </th>
+					<td> Jussieu </td>
+					<td> MP </td>
+					<td> - </td>
+					<td> - </td>
+					<td> - </td>
+					<td> - </td>
+				</tr>
+				<!--Création de la 4e ligne-->
+				<tr>
+					<th> Val de Loire </th>
+					<td> Orléans </td>
+					<td> CHIMIE </td>
+					<td> - </td>
+					<td> - </td>
+					<td> - </td>
+					<td> - </td>
+				</tr>
+				<!--Création de la dernière ligne-->
+				<tr>
+					<th> Bourgogne </th>
+					<td> Dijon </td>
+					<td> GEA </td>
+					<td> INFO </td>
+					<td> SC </td>
+					<td> QLO </td>
+					<td> SD </td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<p> Choisissez votre spécialité dans le menu déroulant </p>
+			<select><!--Balise pour créer un menu déroulant-->
+				<option> SD - Science des Données </option>
+				<option> CS - Carrière Sociale </option>
+				<option> QLO - Qualité Logistique </option>
+				<option> MP - Mesure Physique </option>
+				<option> GEA - Gestion des Entreprises et des Administration </option>
+				<option> INFO - Informatique </option>
+				<option> </option>
+			</select>
+		</section>
+		<footer>
+			<p> Linkedin </p><br><!--Break Row = Saut de ligne-->
+			<p> Instagram </p><br>
+			<p> Facebook </p><br>
+		</footer>
+		</div>
+	</body>
+</html>
